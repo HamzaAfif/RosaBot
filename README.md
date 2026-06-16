@@ -10,6 +10,9 @@ or English.
 It's a real tool solving a real problem I see every shift, built as a portfolio
 project while doing my Master's in Software Engineering at UQAM.
 
+> **🌹 Live demo:** https://rosa-3v7s2zjun-hamzaafifs-projects.vercel.app/
+> **Stack:** React · Tailwind · FastAPI · LangChain · OpenAI
+
 ---
 
 ## What it does
@@ -97,6 +100,7 @@ actually matters.
 **AI:** LangChain agent (`create_agent`), OpenAI, in-memory conversation
 checkpointer
 **Testing:** pytest (data layer + tools)
+**Deployment:** Frontend on Vercel, backend containerized and hosted on Railway
 
 ## Running it locally
 
@@ -138,6 +142,8 @@ python -m pytest -v
 - Building a clean layered backend where each part has one responsibility.
 - Learning React from scratch — state, components, props, hooks — to build the
   frontend myself.
+- Deploying a real full-stack app: containerizing the backend, wiring environment
+  variables, and connecting two separately-hosted services.
 - Handling the unglamorous-but-essential parts: error handling, conversation
   memory, bilingual + typo-tolerant search, keeping secrets out of version
   control.
@@ -146,7 +152,7 @@ python -m pytest -v
 
 - Conversation memory is in-memory and resets on restart (swap in `SqliteSaver`
   to persist).
-- Allergen detection is a staff *aid*, not a certified database — only as complete
+- Allergen detection is a staff *aid*, not a certified database; only as complete
   as the curated lists plus keyword coverage.
 - Built as a student prototype, but designed with production paths in mind.
 
