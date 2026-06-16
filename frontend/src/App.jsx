@@ -4,12 +4,15 @@ import TypingIndicator from "./components/TypingIndicator";
 import InputBar from "./components/InputBar";
 import "./index.css";
 
+
 const STARTERS = [
   "Does the Pisco Sour have egg?",
   "What cocktails do you have?",
   "Anything without dairy?",
   "How is the Amaretto Sour made?",
 ];
+
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 function App() {
   const [messages, setMessages] = useState([
@@ -36,7 +39,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch(`${API_URL}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: msg, conversation_id: conversationId }),
