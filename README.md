@@ -1,145 +1,157 @@
 # RosaBot 🌹
 
-An AI staff assistant for **India Rosa**, a restaurant in Montreal. RosaBot helps
-waiters, runners, and bartenders during service — looking up menu items, cocktail
-specs, ingredients, and possible allergens through a simple chat interface.
+A full-stack AI assistant I built for the restaurant where I work part-time as a
+busser in Montreal. During busy shifts I kept noticing the same problems — new
+staff struggling to learn a large menu, people unsure about allergens, bartenders
+double-checking cocktail specs mid-rush. So I built RosaBot: a chat assistant that
+knows the entire India Rosa menu and answers staff questions instantly, in French
+or English.
 
-It is built as an **agent with function-calling tools**, not a vector-database
-chatbot. The menu lives in structured JSON, and the language model reaches it
-through a small set of deterministic Python tools — so answers are precise
-(exact ounces, exact ingredients) rather than fuzzy approximations.
+It's a real tool solving a real problem I see every shift, built as a portfolio
+project while doing my Master's in Software Engineering at UQAM.
 
 ---
 
-## Why function-calling instead of RAG
+## What it does
 
-The menu is structured data: exact measurements, specific ingredients, strict
-allergen information. Vector embeddings are good at "find something similar in
-meaning," but poor at "give me the *exact* ingredients of this *specific* item."
-Loading the whole menu into the prompt, meanwhile, is slow and expensive.
+- **Menu lookups** — "What's in the Butter Chicken?" returns exact ingredients.
+- **Cocktail specs** — exact ounces, method, and glassware for bartenders.
+- **Allergen checks** — "Anything without dairy?" with a safety-first approach.
+- **Bilingual** — staff ask in English or French; the menu data is in French.
+- **Typo-tolerant** — "poulet au boeur" still finds "Poulet au beurre."
+- **Remembers context** — ask a follow-up ("what about nuts?") and it knows
+  what you mean.
 
-So RosaBot keeps the menu in JSON and exposes three tools. The model decides
-which tool to call, the tool returns a small precise snippet, and the model
-answers from that. No vector store, no prompt bloat, fully debuggable.
+## The interesting engineering decision: tools, not RAG
 
-## Architecture
+The obvious way to build a menu chatbot today is RAG — embed the menu into a
+vector database and retrieve "similar" chunks. I deliberately didn't do that, and
+understanding *why* was the most valuable part of this project.
+
+A menu is **structured, exact data**: 1.75 oz of pisco, egg white present or not,
+this specific allergen. Vector search is good at "find something similar in
+meaning" but bad at "give me the *exact* ingredients of this *specific* dish" — it
+can return a cocktail that merely *looks* similar and hand back the wrong recipe.
+
+So instead, the menu stays as structured JSON, and the language model reaches it
+through **function-calling tools** — small, deterministic Python functions it
+calls when it needs precise data. No vector store, no fuzzy approximations, no
+loading the whole menu into the prompt. The model picks a tool, the tool returns
+a tiny exact snippet, and the answer is built from that. It's cheaper, faster, and
+fully debuggable — if it ever answers wrong, I can trace exactly which tool was
+called and why.
+
+This is the kind of judgment I'm proud of: choosing the right pattern for the data
+instead of reaching for the trendy default.
+
+## How it's built
 
 ```
-Browser (index.html)
+React + Tailwind frontend
         │  POST /chat
         ▼
-FastAPI backend (app/main.py)
+FastAPI backend
         │
         ▼
-LangChain agent (app/agent/) ── system prompt + 3 tools
+LangChain agent  ──  system prompt + 3 tools + conversation memory
         │
         ▼
-Menu tools (app/tools/) ── thin wrappers over the repository
+3 menu tools  ──  thin wrappers over the data layer
         │
         ▼
-MenuRepository (app/data/) ── loads + normalizes the JSON menus
+MenuRepository  ──  loads + normalizes 3 messy JSON menu files into one clean shape
 ```
+
+The layering is deliberate — the repository is the *only* code that touches the
+JSON, the tools wrap the repository, the agent calls the tools, the API wraps the
+agent. Each layer has one job, so swapping the JSON for a real database later means
+changing one file and nothing else.
 
 ### The three tools
 
-| Tool | Purpose | Example question |
-|------|---------|------------------|
-| `search_menu_items` | Full details of one specific item | "Does the Pisco Sour have egg?" |
-| `get_menu_summary` | Lightweight list (names + categories) | "What cocktails do you have?" |
-| `filter_by_dietary` | Items without a flagged allergen | "Anything without dairy?" |
+| Tool | What it's for | Example |
+|------|---------------|---------|
+| `search_menu_items` | Details of one specific item | "Does the Pisco Sour have egg?" |
+| `get_menu_summary` | Lightweight list of everything | "What cocktails do you have?" |
+| `filter_by_dietary` | Items without a given allergen | "Anything without dairy?" |
 
-## Allergen handling
+## Allergens: built to be safe, not just clever
 
-Allergen information comes from two layers, with the safer one winning:
+Allergens are the one place a restaurant tool can't bluff. RosaBot uses two layers:
 
-1. **Kitchen-curated lists** (`allergy_guide.json`) — authoritative. Where the
-   kitchen has listed an allergen, that is used directly.
-2. **Keyword inference** — a fallback that scans ingredient names to catch
-   anything the curated lists did not mention (e.g. egg white in cocktails).
+1. **Kitchen-curated lists** — authoritative facts the kitchen provided.
+2. **Keyword inference** — a fallback that scans ingredient names to catch what
+   the curated lists missed (like egg white hiding in a cocktail).
 
-Every allergen flag records its **source** (`curated` vs `inferred`) so RosaBot
-can speak with appropriate confidence. **No answer is ever presented as a safety
-guarantee** — every dietary response carries a disclaimer telling staff to
-confirm with the kitchen.
+Every allergen flag records its **source**, so the bot can say "the kitchen lists
+this as containing nuts" (high confidence) vs "I detected possible dairy" (lower
+confidence). And it **never** tells staff a dish is "safe" — every dietary answer
+carries a disclaimer to confirm with the kitchen. That restraint was a conscious
+design choice: an AI guessing wrong about an allergy is the one failure that
+actually matters.
 
-## Project structure
+## Tech stack
 
-```
-RosaV2/
-├── backend/
-│   ├── app/
-│   │   ├── main.py              FastAPI app + /chat endpoint
-│   │   ├── config.py            settings + .env loading
-│   │   ├── agent/               LangChain agent + system prompt
-│   │   ├── tools/               the 3 tools + Pydantic schemas
-│   │   ├── data/                MenuRepository + JSON menus
-│   │   └── models/              request/response models
-│   ├── tests/                   pytest suite (repository + tools)
-│   ├── requirements.txt
-│   └── .env                     OPENAI_API_KEY=... (not committed)
-└── index.html                   single-file chat frontend
-```
+**Frontend:** React, Vite, Tailwind CSS
+**Backend:** FastAPI, Python
+**AI:** LangChain agent (`create_agent`), OpenAI, in-memory conversation
+checkpointer
+**Testing:** pytest (data layer + tools)
 
-## Running locally
+## Running it locally
 
-### 1. Backend
-
+**Backend:**
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate        # Windows  (use: source venv/bin/activate on macOS/Linux)
+venv\Scripts\activate          # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
-
 Create `backend/.env`:
-
 ```
 OPENAI_API_KEY=sk-your-key-here
 ```
-
-Start the server:
-
+Run it:
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload    # API at localhost:8000, docs at /docs
 ```
 
-The API is now at `http://localhost:8000`. Interactive docs (try it in the
-browser, no frontend needed): `http://localhost:8000/docs`.
-
-### 2. Frontend
-
-From the project root, serve the page:
-
+**Frontend:**
 ```bash
-python -m http.server 5500
+cd frontend
+npm install
+npm run dev                      # app at localhost:5173
 ```
 
-Open `http://localhost:5500` and chat with RosaBot.
-
-## Running the tests
-
+**Tests:**
 ```bash
 cd backend
 python -m pytest -v
 ```
 
-## Configuration
+## What I learned
 
-Set these in `backend/.env` (all optional except the API key):
+- Why function-calling beats RAG for structured data — and being able to defend
+  that choice.
+- Designing an agent with tools, schemas, and a system prompt that enforces real
+  safety rules.
+- Building a clean layered backend where each part has one responsibility.
+- Learning React from scratch — state, components, props, hooks — to build the
+  frontend myself.
+- Handling the unglamorous-but-essential parts: error handling, conversation
+  memory, bilingual + typo-tolerant search, keeping secrets out of version
+  control.
 
-| Variable | Default | Purpose |
-|----------|---------|---------|
-| `OPENAI_API_KEY` | — | required |
-| `ROSABOT_MODEL` | `gpt-4o-mini` | which model to use |
-| `ROSABOT_TEMPERATURE` | `0.2` | low = grounded, consistent |
-| `ROSABOT_ORIGINS` | `*` | allowed CORS origins |
+## Honest limitations
 
-## Notes & limitations
+- Conversation memory is in-memory and resets on restart (swap in `SqliteSaver`
+  to persist).
+- Allergen detection is a staff *aid*, not a certified database — only as complete
+  as the curated lists plus keyword coverage.
+- Built as a student prototype, but designed with production paths in mind.
 
-- **Conversation memory** is in-memory and resets when the server restarts.
-  Swap `InMemorySaver` for a `SqliteSaver` in `app/agent/rosabot_agent.py` to
-  persist it.
-- **Allergen detection** is only as complete as the curated guide plus the
-  keyword list. It is a staff aid, not a certified allergen database.
-- Built as a student prototype to demonstrate an applied AI use case in
-  restaurant operations.
+---
+
+*Built by Hamza — Master's student in Software Engineering, UQAM. This started as
+a problem I noticed on the restaurant floor and became a project I'm genuinely
+proud of.*
