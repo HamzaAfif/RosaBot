@@ -1,0 +1,1301 @@
+{
+  "menu_name": "Cocktail Classics",
+  "sections": {
+    "cocktails": [
+      {
+        "name": "AMARETTO SOUR",
+        "ingredients": [
+          "2 oz Amaretto Disaronno",
+          "1 oz Jus de Citron",
+          "1 oz Blanc d'Oeuf",
+          "1 trait Angostura Bitters"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Old Fashioned",
+        "ice": "Big ice cube",
+        "garnish": ""
+      },
+      {
+        "name": "AMERICANO",
+        "ingredients": [
+          "1½ oz Campari",
+          "1½ oz Vermouth Rouge",
+          "Top Soda"
+        ],
+        "method": "Build",
+        "glass": "Collins",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "APEROL SPRITZ",
+        "ingredients": [
+          "2 oz Apérol",
+          "3 oz Prosecco",
+          "Top Soda"
+        ],
+        "method": "Build",
+        "glass": "Coupe à vin",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "AVIATION",
+        "ingredients": [
+          "1½ oz Dry Gin Beefeater",
+          "½ oz Maraschino Cherry Liqueur",
+          "¼ oz Liqueur de Violette",
+          "¾ oz Jus Citron"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "BASIL SMASH",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "1 oz Jus Citron",
+          "¾ oz Sirop Simple",
+          "7-8 Feuilles de basilic"
+        ],
+        "method": "Muddle / Shake / Double strain",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "BELLINI",
+        "ingredients": [
+          "2 oz Purée de pêche",
+          "¼ oz Peach Schnapps",
+          "Top Prosecco"
+        ],
+        "method": "Build",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "BLACK RUSSIAN",
+        "ingredients": [
+          "2 oz Vodka",
+          "1 oz Liqueur de café Kahlua"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "BLACK VELVET",
+        "ingredients": [
+          "Half Stout",
+          "Half Prosecco"
+        ],
+        "method": "Build",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "BLOODY CAESAR / MARY",
+        "ingredients": [
+          "2 oz Vodka",
+          "½ oz Jus Citron",
+          "½ oz Semure Olive",
+          "3 dashes Worcestershire Sauce",
+          "2 dashes Tabasco",
+          "Top Clamato / Jus Tomate"
+        ],
+        "method": "Build",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": "Rim Bloody + Brochette à Bloody"
+      },
+      {
+        "name": "BOULEVARDIER",
+        "ingredients": [
+          "1 oz Bourbon / Rye Whisky",
+          "1 oz Vermouth Rouge",
+          "1 oz Campari"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "Big clear ice cube",
+        "garnish": "Zeste d'orange"
+      },
+      {
+        "name": "CAIPIRINHA",
+        "ingredients": [
+          "2 oz Cachaça",
+          "1 Cube sucre brun",
+          "3-4 quartiers de lime (Demi lime)"
+        ],
+        "method": "Muddle lime and sugar until dissolved then add cachaça / Stir",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "CHILCANO DE PISCO",
+        "ingredients": [
+          "2 oz Pisco",
+          "½ oz Jus Lime",
+          "2 dash Angostura",
+          "Top Ginger Ale"
+        ],
+        "method": "Build",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "CORPSE REVIVER N.1",
+        "ingredients": [
+          "1½ oz Cognac VS",
+          "¾ oz Calvados / Apple Brandy",
+          "¾ oz Vermouth Rouge"
+        ],
+        "method": "Stir",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "CORPSE REVIVER N.2",
+        "ingredients": [
+          "¾ oz Dry Gin",
+          "¾ oz Lillet Blanc",
+          "¾ oz Cointreau / Triple Sec",
+          "¾ oz Jus Citron"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": "Spray Absinthe"
+      },
+      {
+        "name": "COSMOPOLITAN",
+        "ingredients": [
+          "1¼ oz Vodka",
+          "¾ oz Cointreau / Triple Sec",
+          "½ oz Jus Lime",
+          "1½ oz Jus Canneberge"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "CUBA LIBRE",
+        "ingredients": [
+          "2 oz Rhum Blanc",
+          "3 quartiers de lime",
+          "Top Coke"
+        ],
+        "method": "Muddle / Build",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "DAIQUIRI",
+        "ingredients": [
+          "2 oz Rhum blanc",
+          "1 oz Jus Lime",
+          "¾ oz Sirop Simple"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "DARK 'N' STORMY",
+        "ingredients": [
+          "2 oz Rhum noir",
+          "¼ oz Jus Lime",
+          "Top Ginger Beer"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "DIRTY MARTINI",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "½ oz Vermouth blanc",
+          "½ oz Semure d'olive"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": "",
+        "note": "Extra dry = bar spoon vermouth"
+      },
+      {
+        "name": "DRY MARTINI",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "½ oz Vermouth Blanc"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": "",
+        "note": "Extra dry = bar spoon vermouth"
+      },
+      {
+        "name": "EASTSIDE",
+        "ingredients": [
+          "2 oz Beefeater Gin",
+          "1 oz Lime",
+          "¾ oz Sirop Simple",
+          "Menthe",
+          "Concombre"
+        ],
+        "method": "Muddle / Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "ESPRESSO MARTINI",
+        "ingredients": [
+          "1 ½ oz Vodka",
+          "¾ oz Liqueur de Café Kahlua",
+          "1 oz Espresso"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "FRENCH MARTINI",
+        "ingredients": [
+          "2 oz Vodka",
+          "¼ oz Chambord",
+          "1 ½ oz Jus Ananas"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "FRENCH 75",
+        "ingredients": [
+          "1 ½ oz Dry Gin",
+          "½ oz Jus Citron",
+          "½ oz Sirop Simple",
+          "Top Prosecco"
+        ],
+        "method": "Shake",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "FRENCH 95",
+        "ingredients": [
+          "1 ½ oz Bourbon",
+          "½ oz Jus Citron",
+          "½ oz Sirop Simple",
+          "Top Prosecco"
+        ],
+        "method": "Shake",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "GIMLET",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "1 oz Jus Lime",
+          "¾ oz Sirop Simple"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7 oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "GIN FIZZ",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "½ oz Jus Citron",
+          "½ oz Jus Lime",
+          "¾ oz Sirop Simple",
+          "1 oz Blanc d'oeuf",
+          "Top Soda"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Collins",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "GODFATHER",
+        "ingredients": [
+          "1½ oz Scotch whisky",
+          "¾ oz Amaretto"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "Big clear ice cube",
+        "garnish": ""
+      },
+      {
+        "name": "GRASSHOPPER",
+        "ingredients": [
+          "1 oz Crème de Menthe verte",
+          "1 oz Crème de Cacao",
+          "1 oz Crème ou Evaporated Milk"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7 oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "HANKY PANKY",
+        "ingredients": [
+          "1 oz Dry Gin",
+          "1 oz Vermouth blanc",
+          "Barspoon Fernet-Branca"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupette Nick & Nora",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "HEMINGWAY DAIQUIRI",
+        "ingredients": [
+          "2 oz Rhum Blanc",
+          "½ oz Maraschino Cherry Liqueur",
+          "1 oz Jus Pamplemousse",
+          "1 oz Jus Lime",
+          "½ oz Sirop Simple"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 8oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "HUGO SPRITZ",
+        "ingredients": [
+          "1 oz St-Germain",
+          "Menthe",
+          "4 oz Prosecco",
+          "1 oz Soda"
+        ],
+        "method": "Build",
+        "glass": "Verre à vin",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "JUNGLE BIRD",
+        "ingredients": [
+          "1½ oz Rhum Noir",
+          "½ oz Campari",
+          "1½ oz Jus Ananas",
+          "½ oz Jus Lime",
+          "½ oz Sirop Simple"
+        ],
+        "method": "Shake",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "KIR",
+        "ingredients": [
+          "½ oz Crème de Cassis",
+          "Vin Blanc"
+        ],
+        "method": "Build",
+        "glass": "Coupe à vin",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "KIR ROYAL",
+        "ingredients": [
+          "½ oz Crème de Cassis",
+          "Prosecco"
+        ],
+        "method": "Build",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "LAST WORD",
+        "ingredients": [
+          "¾ oz Dry Gin",
+          "¾ oz Chartreuse Verte",
+          "¾ oz Maraschino Cherry Liqueur",
+          "¾ oz Jus Lime"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "LITCHI MARTINI",
+        "ingredients": [
+          "1½ oz Absolut Vodka",
+          "¾ oz Soho",
+          "¼ oz Jus Lime"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "LONG ISLAND ICED TEA",
+        "ingredients": [
+          "½ oz Rhum Blanc",
+          "½ oz Vodka",
+          "½ oz Dry Gin",
+          "½ oz Tequila",
+          "½ oz Cointreau / Triple Sec",
+          "½ oz Sirop Simple",
+          "1 oz Jus Citron",
+          "Top Coca Cola"
+        ],
+        "method": "Shake",
+        "glass": "Collins",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MAI TAI",
+        "ingredients": [
+          "1½ oz Rhum Ambré",
+          "¾ oz Cointreau / Triple Sec",
+          "¾ oz Jus Lime",
+          "½ oz Sirop d'Orgeat",
+          "Top ½ oz Dark Rhum (with barspoon)"
+        ],
+        "method": "Shake",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MANHATTAN (SWEET)",
+        "ingredients": [
+          "2 oz Rye Whisky",
+          "½ oz Vermouth Rouge",
+          "3 dash Angostura bitter"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MANHATTAN (PERFECT)",
+        "ingredients": [
+          "2 oz Rye Whisky",
+          "¼ oz Vermouth Blanc",
+          "¼ oz Vermouth Rouge",
+          "3 dash Angostura bitter"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MARGARITA",
+        "ingredients": [
+          "1½ oz Tequila",
+          "¾ oz Cointreau / Triple Sec",
+          "1 oz Jus Lime",
+          "½ oz Sirop Simple"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz or Old Fashioned full of ice",
+        "ice": "",
+        "garnish": "Half Salt Rim",
+        "note": "Spicy Margarita: Muddle green chili in shaker + Tajin Rim"
+      },
+      {
+        "name": "MARTINEZ",
+        "ingredients": [
+          "1 oz Dry Gin",
+          "1 oz Vermouth Rouge",
+          "Barspoon Maraschino Cherry Liqueur",
+          "2 dash Angostura bitter"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MICHELADA",
+        "ingredients": [
+          "1 oz Bloody Mix",
+          "2 oz Clamato",
+          "Top Bière Lager"
+        ],
+        "method": "Build",
+        "glass": "Beer Pint",
+        "ice": "",
+        "garnish": "Rim à Bloody"
+      },
+      {
+        "name": "MIMOSA",
+        "ingredients": [
+          "1/3 Jus Orange",
+          "2/3 Prosecco"
+        ],
+        "method": "Build",
+        "glass": "Flute à champagne",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MINT JULEP",
+        "ingredients": [
+          "2 oz Bourbon Whisky",
+          "8 feuilles de Menthe",
+          "½ oz Sirop Simple",
+          "3 dash Angostura bitter"
+        ],
+        "method": "Shake",
+        "glass": "Copper Mug",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MOJITO",
+        "ingredients": [
+          "2 oz Rhum Blanc",
+          "10-12 Feuilles de Menthe",
+          "¾ oz Jus Lime ou 4-5 quartiers de lime (muddle)",
+          "½ oz Sirop Simple",
+          "Top Soda"
+        ],
+        "method": "Build",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "MOSCOW MULE",
+        "ingredients": [
+          "2 oz Vodka",
+          "½ oz Jus Lime",
+          "¼ oz Sirop Simple",
+          "Top Ginger Beer"
+        ],
+        "method": "Build",
+        "glass": "Copper Mug",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "NAKED & FAMOUS",
+        "ingredients": [
+          "¾ oz Mezcal",
+          "¾ oz Apérol",
+          "¾ oz Chartreuse Jaune",
+          "¾ oz Jus Lime"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "NEGRONI",
+        "ingredients": [
+          "1 oz Dry Gin",
+          "1 oz Campari",
+          "1 oz Vermouth Rouge"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "Big clear ice cube",
+        "garnish": ""
+      },
+      {
+        "name": "NEW YORK SOUR",
+        "ingredients": [
+          "2 oz Whisky",
+          "1 oz Jus Citron",
+          "¾ oz Sirop Simple",
+          "1 oz Blanc d'oeuf",
+          "Vin rouge (floated on top with barspoon)"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "OLD CUBAN",
+        "ingredients": [
+          "2 oz Havana Reserva Brun",
+          "¾ oz Lime",
+          "¾ oz Sirop Simple",
+          "5-6 Feuille de Menthe",
+          "2 dash Angostura bitters",
+          "Top 2 oz Prosecco"
+        ],
+        "method": "Shake / Top Prosecco",
+        "glass": "Coupette 8oz",
+        "ice": "",
+        "garnish": "Menthe"
+      },
+      {
+        "name": "OLD FASHIONED",
+        "ingredients": [
+          "2 oz Bourbon Whisky",
+          "¼ oz Sirop Simple",
+          "3 dash Angostura bitter"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "Big clear ice cube",
+        "garnish": "Zeste orange"
+      },
+      {
+        "name": "PALOMA",
+        "ingredients": [
+          "2 oz Tequila",
+          "2 oz Jus Pamplemousse",
+          "1 oz Jus Lime",
+          "½ oz Sirop Agave",
+          "Top Soda"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "PAPER PLANE",
+        "ingredients": [
+          "¾ oz Bourbon",
+          "¾ oz Amaro Nonino",
+          "¾ oz Apérol",
+          "¾ oz Jus Citron"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "PIMM'S CUP",
+        "ingredients": [
+          "2 oz Pimm's No.1",
+          "½ oz Jus Citron",
+          "Top Ginger Ale"
+        ],
+        "method": "Build",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": "Citron, concombre, menthe"
+      },
+      {
+        "name": "PINA COLADA",
+        "ingredients": [
+          "2 oz Rhum Blanc",
+          "2 oz Jus Ananas",
+          "1 oz Sirop Coconut",
+          "1 oz Jus Lime"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "PINK LADY",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "½ oz Liqueur de Pommes",
+          "1 oz Jus Citron",
+          "¼ oz Grenadine",
+          "1 oz Blanc d'oeuf"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "PISCO SOUR",
+        "ingredients": [
+          "2 oz Pisco",
+          "1 oz Jus de Lime",
+          "¾ oz Sirop Simple",
+          "1 oz Blanc d'oeuf"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "PLANTER'S PUNCH",
+        "ingredients": [
+          "2 oz Dark Rhum",
+          "1 oz Sirop Simple",
+          "¾ oz Jus Lime",
+          "3 dash Angostura bitters"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": "Menthe"
+      },
+      {
+        "name": "RUSTY NAIL",
+        "ingredients": [
+          "2 oz Scotch Whisky 12 ans",
+          "1 oz Drambuie"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "SAZERAC",
+        "ingredients": [
+          "1 oz Cognac",
+          "1 oz Rye Whisky",
+          "Barspoon Sirop Simple",
+          "3 dash Peychaud / Botanique bitter"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Old Fashioned",
+        "ice": "Without ice",
+        "garnish": "Spray absinthe and lemon zest"
+      },
+      {
+        "name": "SBAGLIATO",
+        "ingredients": [
+          "1 oz Vermouth Rouge",
+          "1 oz Campari",
+          "Top Prosecco"
+        ],
+        "method": "Build",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "SEX ON THE BEACH",
+        "ingredients": [
+          "1½ oz Vodka",
+          "½ oz Peach Schnapps",
+          "1 oz Jus Orange",
+          "1 oz Jus Canneberge",
+          "Splash Grenadine on top"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "SIDECAR",
+        "ingredients": [
+          "1½ oz Cognac",
+          "½ oz Cointreau / Triple Sec",
+          "¾ oz Jus Citron",
+          "¼ oz Sirop Simple"
+        ],
+        "method": "Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": "Demi Rim Sucre"
+      },
+      {
+        "name": "SINGAPOUR SLING",
+        "ingredients": [
+          "1½ oz Dry Gin",
+          "¼ oz Cherry Brandy",
+          "¼ oz Benedictine D.O.M.",
+          "¼ oz Cointreau / Triple Sec",
+          "1½ oz Jus Ananas",
+          "½ oz Jus Lime",
+          "1 dash Angostura",
+          "Splash Grenadine"
+        ],
+        "method": "Shake",
+        "glass": "Collins",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "SOUTHSIDE",
+        "ingredients": [
+          "2 oz Beefeater Gin",
+          "1 oz Lime",
+          "¾ oz Sirop Simple",
+          "Menthe"
+        ],
+        "method": "Muddle / Shake / Double strain",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "TEQUILA SUNRISE",
+        "ingredients": [
+          "1½ oz Tequila",
+          "½ oz Cointreau / Triple Sec",
+          "2 oz Jus Orange",
+          "¾ oz Jus Lime",
+          "Top Grenadine"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "TOM COLLINS",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "1 oz Jus Citron",
+          "½ oz Sirop Simple",
+          "Top Soda"
+        ],
+        "method": "Shake",
+        "glass": "Collins",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "VESPER MARTINI",
+        "ingredients": [
+          "2 oz Dry Gin",
+          "¾ oz Vodka",
+          "¼ oz Lillet"
+        ],
+        "method": "Stir in mixing glass",
+        "glass": "Coupe Martini",
+        "ice": "",
+        "garnish": "Lemon zest"
+      },
+      {
+        "name": "WHISKY SOUR",
+        "ingredients": [
+          "2 oz Whisky",
+          "1 oz Jus Citron",
+          "¾ oz Sirop Simple",
+          "1 oz Blanc d'oeuf"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "WHITE RUSSIAN",
+        "ingredients": [
+          "2 oz Vodka",
+          "1 oz Liqueur de Café Kahlua",
+          "1 oz Crème (floated on top)"
+        ],
+        "method": "Build",
+        "glass": "Old Fashioned",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "WHITE LADY",
+        "ingredients": [
+          "1½ oz Dry Gin",
+          "½ oz Cointreau / Triple Sec",
+          "¾ oz Jus Citron",
+          "1 oz Blanc d'oeuf"
+        ],
+        "method": "Dry shake / Shake / Double strain",
+        "glass": "Coupette 7oz",
+        "ice": "",
+        "garnish": ""
+      },
+      {
+        "name": "ZOMBIE",
+        "ingredients": [
+          "1 oz Rhum Blanc",
+          "1 oz Rhum Brun",
+          "1 oz Rhum Ambré",
+          "1 oz Jus Ananas",
+          "1 oz Jus Pamplemousse",
+          "¾ oz Jus Lime",
+          "¼ oz Sirop Simple",
+          "Top Grenadine"
+        ],
+        "method": "Shake",
+        "glass": "Highball",
+        "ice": "",
+        "garnish": ""
+      }
+    ],
+    "shots": [
+      {
+        "name": "GABICHOU",
+        "ingredients": [
+          "Gin",
+          "Amermelade",
+          "Saint-Germain"
+        ],
+        "method": "Shake",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "MR. SANDHU",
+        "ingredients": [
+          "Amaretto",
+          "Chartreuse Jaune",
+          "Tabasco"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "ADIOS",
+        "ingredients": [
+          "Liqueur de Café",
+          "Tequila"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "AFTER 8",
+        "ingredients": [
+          "Crème de Cacao",
+          "Crème de Menthe",
+          "Vodka"
+        ],
+        "method": "Shake",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "BABY GUINNESS",
+        "ingredients": [
+          "¾ oz Liqueur de Café",
+          "¼ oz Baileys"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "BLOWJOB",
+        "ingredients": [
+          "Amaretto / Liqueur de Café",
+          "Baileys",
+          "Lait moussé"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "B52",
+        "ingredients": [
+          "Liqueur de Café",
+          "Baileys",
+          "Grand Marnier / Triple Sec"
+        ],
+        "method": "Layered (Étagé)",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "CARROT CAKE",
+        "ingredients": [
+          "Goldschlager",
+          "Frangelico",
+          "Baileys"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "CHOCOLATE CHIP",
+        "ingredients": [
+          "Amaretto",
+          "Crème de Cacao",
+          "Baileys"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "COCHONNES",
+        "ingredients": [
+          "Liqueur de Café / Amaretto",
+          "Baileys",
+          "Jus Ananas"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "COWBOY COCK SUCKER",
+        "ingredients": [
+          "Baileys",
+          "Butterscotch schnapps"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "CROUSTADE AUX POMMES",
+        "ingredients": [
+          "Zubrowka",
+          "Jus Pomme"
+        ],
+        "method": "One shot of each",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "E.T.",
+        "ingredients": [
+          "Liqueur de Melon",
+          "Baileys",
+          "Vodka"
+        ],
+        "method": "Layered (Étagé)",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "FIREBALL",
+        "ingredients": [
+          "Goldschlager",
+          "Tabasco dash"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "GAZ D'AVION",
+        "ingredients": [
+          "Whisky",
+          "Sambucca"
+        ],
+        "method": "Flambé dans un verre à cognac puis verser dans un Old Fashioned",
+        "glass": "Old Fashioned",
+        "garnish": ""
+      },
+      {
+        "name": "GROSSES BOULES",
+        "ingredients": [
+          "Apricot Brandy",
+          "Jack Daniels / Whisky"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "HOT SHOT",
+        "ingredients": [
+          "Galliano",
+          "Espresso",
+          "Lait moussé"
+        ],
+        "method": "Layered (Étagé)",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "KAMIKAZE",
+        "ingredients": [
+          "Tequila",
+          "½ Triple Sec / Cointreau",
+          "½ Jus Lime"
+        ],
+        "method": "Shake",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "LEMON DROP",
+        "ingredients": [
+          "Vodka (Cold)",
+          "Quartier de Citron sucré"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "LITCHI BOMB",
+        "ingredients": [
+          "Vodka",
+          "Soho",
+          "Tabasco"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "MADELEINE",
+        "ingredients": [
+          "1/3 Amaretto",
+          "1/3 Liqueur Café",
+          "1/3 Jus Ananas",
+          "Barspoon Cointreau"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "MELON BALL",
+        "ingredients": [
+          "½ Vodka",
+          "¼ Liqueur de Melon",
+          "Jus Ananas"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "PB & J",
+        "ingredients": [
+          "Chambord",
+          "Frangelico"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "PISTACHIO",
+        "ingredients": [
+          "Amaretto",
+          "Baileys",
+          "Curaçao Bleu"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "PORNSTAR",
+        "ingredients": [
+          "Curaçao Bleu",
+          "Sour Puss"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "STINGER",
+        "ingredients": [
+          "Brandy / Cognac",
+          "Crème de Menthe blanche"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      },
+      {
+        "name": "UPPERCUT",
+        "ingredients": [
+          "Amaretto",
+          "Southern Comfort",
+          "Jus Orange"
+        ],
+        "method": "",
+        "glass": "Shot",
+        "garnish": ""
+      }
+    ],
+    "cafes_alcoolises": [
+      {
+        "name": "CAFÉ BRÉSILIEN",
+        "ingredients": [
+          "½ oz Brandy",
+          "½ oz Grand Marnier",
+          "½ oz Kahlua",
+          "Café",
+          "Mousse de lait"
+        ],
+        "method": "",
+        "glass": "Coffee mug / verre à café",
+        "garnish": ""
+      },
+      {
+        "name": "CAFÉ B-52",
+        "ingredients": [
+          "½ oz Kahlua",
+          "½ oz Baileys",
+          "½ oz Grand Marnier",
+          "Café",
+          "Mousse de lait"
+        ],
+        "method": "",
+        "glass": "Coffee mug / verre à café",
+        "garnish": ""
+      },
+      {
+        "name": "CAFÉ ESPAGNOL",
+        "ingredients": [
+          "¾ oz Rhum brun",
+          "¾ oz Kahlua",
+          "Café",
+          "Mousse de lait"
+        ],
+        "method": "",
+        "glass": "Coffee mug / verre à café",
+        "garnish": ""
+      },
+      {
+        "name": "CAFÉ IRLANDAIS",
+        "ingredients": [
+          "¾ oz Jameson",
+          "¾ oz Baileys",
+          "Café",
+          "Mousse de lait"
+        ],
+        "method": "",
+        "glass": "Coffee mug / verre à café",
+        "garnish": ""
+      }
+    ]
+  }
+}

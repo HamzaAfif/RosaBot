@@ -1,0 +1,470 @@
+{
+  "menu_name": "La Bible - India Rosa",
+  "sections": {
+    "tapas": [
+      {
+        "name": "Soupe Dal Shorba",
+        "description": "Lentilles jaunes, oignon, ail, tomates et épices indiennes.",
+        "ingredients": [
+          "Oignon blanc",
+          "Tomates fraîches",
+          "Lentilles jaunes",
+          "Ail",
+          "Coriandre",
+          "Gingembre",
+          "Épices indiennes (cumin, curcuma, cardamome, graines de coriandre, épices maison)"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Salade Maison",
+        "description": "Roquette, noix de cajou, pistaches, amandes, tomates cerises, raisins secs, vinaigrette maison et pousses.",
+        "ingredients": [
+          "Roquette",
+          "Noix de cajou, pistaches et amandes rôties",
+          "Tomates cerises",
+          "Raisins secs",
+          "Pousses (micro pousses)",
+          "Vinaigrette maison (huile d'olive, jus de citron, balsamique, moutarde, chaat masala)"
+        ],
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Dahi Puri",
+        "description": "Coquille garnie de pois chiches, pommes de terre et grenade. Sauces : Sauce tamarin, Raita et chutney végétalien Aloo Bhujia.",
+        "ingredients": [
+          "Coquille (semoule et farine)",
+          "Garniture : pois chiches, pommes de terre",
+          "Chutney végétalien",
+          "Sauce tamarin",
+          "Raita",
+          "Grenade",
+          "Ciboulette",
+          "Aloo Bhujia"
+        ],
+        "spice_level": "Peu épicé",
+        "contains_gluten": true
+      },
+      {
+        "name": "Paneer Tikka",
+        "description": "Fromage Paneer, oignons rouges, poivrons rouges et verts marinés avec marinade Tikka. Cuit en brochette, garni de chutney maison, graines de pavot et micro coriandre.",
+        "ingredients": [
+          "Fromage cottage indien (Paneer) x3",
+          "Oignons rouges",
+          "Poivron vert",
+          "Poivron rouge",
+          "Chutney maison"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Légumes Tandoori",
+        "description": "Chou-fleur, champignons, poivrons verts et rouges marinés aux épices indiennes. Cuit en brochette, garni de chutney végétalien.",
+        "ingredients": [
+          "Brochette (chou-fleur, poivron rouge, poivron vert, oignon, champignons)",
+          "Marinés aux épices indiennes et chutney de mangue",
+          "Chutney végétalien"
+        ],
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Samosa végétarien",
+        "description": "Chausson croustillant triangulaire garni de pommes de terre, pois verts et épices indiennes, servi avec sauce tamarin.",
+        "ingredients": [
+          "Chausson croustillant triangulaire (farine) x3",
+          "Pommes de terre épicées",
+          "Petits pois",
+          "Épices indiennes (cumin, chaat masala, graines de coriandre)",
+          "Pâte de gingembre et ail",
+          "Sauce tamarin",
+          "Ciboulette"
+        ],
+        "spice_level": "Moyennement épicé",
+        "contains_gluten": true
+      },
+      {
+        "name": "Aloo Tikki",
+        "description": "Galette croustillante aux pommes de terre épicées, servie avec chutney végétalien, Raita, Aloo Bhujia et sauce tamarin.",
+        "ingredients": [
+          "Galette de pommes de terre épicée (2)",
+          "Épices indiennes (coriandre, gingembre, piment vert, flocons de piment, chaat masala)",
+          "Tomates, Oignons rouges, Concombre",
+          "Aloo Bhujia",
+          "Chutney végétalien",
+          "Sauce tamarin",
+          "Raita",
+          "Ciboulette"
+        ],
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Bhel Puri",
+        "description": "Riz soufflé, pois chiches croquants, oignons rouges, tomates, arachides, Aloo Bhujia, chutney végétalien, sauce tamarin, paprika et ciboulette.",
+        "ingredients": [
+          "Riz soufflé",
+          "Pois chiches croquants",
+          "Tomates en dés",
+          "Oignons rouges",
+          "Concombre",
+          "Aloo Bhujia",
+          "Chutney végétalien",
+          "Sauce tamarin",
+          "Ciboulette"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Champignons Tandoori",
+        "description": "Champignons farcis avec un mélange de fromage indien, marinés avec marinade Tikka. Garnis de chutney maison, graines de pavot et micro-coriandre.",
+        "ingredients": [
+          "Champignon",
+          "Piment vert",
+          "Mozzarella",
+          "Fromage cottage indien mariné",
+          "Marinade : chaat masala, coriandre, gingembre",
+          "Chutney maison",
+          "Citron vert",
+          "Pousses de coriandre",
+          "Graines de pavot"
+        ],
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Oignons Bahji",
+        "description": "Beignets d'oignon frits aux herbes indiennes et farine de pois chiches, servi avec sauce tamarin.",
+        "ingredients": [
+          "Beignets d'oignons frits",
+          "Épices indiennes (citron vert, sel, chaat masala, cumin, graines de coriandre, flocons de piment)",
+          "Farine de pois chiches"
+        ],
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Crevettes Malai",
+        "description": "Grosses crevettes Tiger marinées aux épices indiennes, dans une sauce Malai avec noix de cajou, crème et fromage.",
+        "ingredients": [
+          "Grosses crevettes (3) taille 6-8",
+          "Sauce Malai",
+          "Marinade (cardamome, noix de cajou, crème, parmesan, feuilles de fenugrec, mozzarella, macis)",
+          "Graines de pavot",
+          "Blancs d'œufs"
+        ],
+        "spice_level": "Peu épicé",
+        "contains_gluten": true
+      },
+      {
+        "name": "Saumon Tikka",
+        "description": "Saumon mariné aux épices Tikka, garni de chutney maison, graines de pavot et micro-coriandre.",
+        "ingredients": [
+          "Saumon de l'Atlantique mariné (3)",
+          "Marinade : yaourt, gingembre, ail, jus de citron, piment, curcuma, garam masala",
+          "Chutney maison",
+          "Graines de pavot",
+          "Micro pousses"
+        ],
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Poulet Hariyali Tandoori",
+        "description": "Cuisses de poulet marinées aux herbes (coriandre, menthe, piment) et épices Tandoori, servies avec chutney maison.",
+        "ingredients": [
+          "Cuisses de poulet marinées (4)",
+          "Marinade : yaourt, coriandre, menthe, pâte de piment, gingembre, ail, jus de citron",
+          "Chutney maison",
+          "Graines de pavot",
+          "Pousses de coriandre",
+          "Citron vert"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Sheek Kebab Agneau",
+        "description": "Agneau du Québec haché sur une brochette, cuit au four Tandoor avec chutney maison, graines de pavot et micro-coriandre.",
+        "ingredients": [
+          "Agneau haché du Québec",
+          "Mélange : mozzarella, oignon frit, beurre, gingembre, piment vert, poudre de piment, garam masala, fenugrec, coriandre",
+          "Chutney maison",
+          "Graines de pavot",
+          "Citron vert"
+        ],
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Morue Amritsari",
+        "description": "Morue noire frite, tartare à l'indienne, chutney d'ananas, concombre, ciboulettes et paprika.",
+        "ingredients": [
+          "Morue frite (2)",
+          "Tartare India Rosa",
+          "Chutney d'ananas",
+          "Concombre",
+          "Ciboulette",
+          "Paprika",
+          "Blanc d'œuf"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Côtelettes d'agneau",
+        "description": "Côtelettes d'agneau marinées et cuites au four tandoor, garnies de zeste de citron et accompagnées de chutney végétalien et d'un quartier de citron.",
+        "ingredients": [
+          "Petites côtelettes d'agneau du Québec (2)",
+          "Marinées : curcuma, piment, garam masala, jus de citron, gingembre, ail, sel, yaourt",
+          "Chutney végétalien",
+          "Zeste de citron",
+          "Micro pousses"
+        ],
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Poulet Tikka Tandoori",
+        "description": "Cuisses de poulet désossées marinées aux épices Tikka, garnies de chutney maison, graines de pavot et micro-coriandre.",
+        "ingredients": [
+          "Cuisses de poulet désossées marinées (4)",
+          "Marinade : chutney de mangue, gingembre, ail, moutarde",
+          "Chutney maison",
+          "Citron vert"
+        ],
+        "spice_level": "Moyennement épicé",
+        "contains_gluten": true
+      }
+    ],
+    "viandes": [
+      {
+        "name": "Poulet au beurre",
+        "description": "Haut de cuisses de poulet désossées marinées aux épices Tikka, sauce au beurre maison. Garni d'huile Rogan, crème et fenugrec.",
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Poulet Korma",
+        "description": "Haut de cuisses de poulet désossées marinées, sauce Korma aux noix (amandes, noix de cajou) et épices. Garni d'amandes, huile Rogan et pistaches.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Poulet Madras",
+        "description": "Haut de cuisses de poulet désossées marinées, sauce au lait de coco et curry, garni de piments chili déshydraté, noix de coco séchés et coriandre.",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Poulet Tikka Masala",
+        "description": "Haut de cuisses de poulet désossées marinées, gravy jaune, gravy blanc.",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Agneau Vindaloo",
+        "description": "Cubes d'agneau du Québec (5), sauce Vindaloo.",
+        "spice_level": "Très épicé"
+      },
+      {
+        "name": "Agneau Korma",
+        "description": "Cubes d'agneau du Québec (5), sauce Korma aux noix et épices (gravy jaune). Garni d'amandes, huile Rogan et pistaches.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Agneau au Cari",
+        "description": "Cubes d'agneau du Québec (5), sauce cari maison, garni avec gingembre et coriandre.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Morue d'Islande à la Goan",
+        "description": "Morue frite, sauce curry avec noix de coco et tomates. Garni de tomates cerises et piments chili séchés.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Crevettes Kadhai",
+        "description": "Crevettes (grosseur 16-20) dans une sauce maison (Gravy jaune) avec tomate, oignons, et poivrons.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Crevettes Masala",
+        "description": "Crevettes (grosseur 16-20) dans une sauce masala (Gravy jaune, Gravy blanc), garni de gingembre et coriandre.",
+        "spice_level": "Épicé"
+      }
+    ],
+    "vegetariens": [
+      {
+        "name": "Chana Masala",
+        "description": "Pois chiches dans une sauce masala, garnis de coriandre.",
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Saag Paneer",
+        "description": "Fromage Paneer (5-7) dans une sauce aux épinards et oignons, garni d'huile Rogan, crème, coriandre et gingembre.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Légumes Masala",
+        "description": "Chou-fleur, carottes, courgettes, brocoli, haricots dans une sauce masala (Gravy Jaune). Garnis de coriandre.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Malai Kofta",
+        "description": "Koftas (boulettes de paneer et pommes de terre) dans une sauce blanche crémeuse, poivre, fleur de muscade, garnies de pistaches et d'amandes.",
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Dal Tarka aux épinards",
+        "description": "Lentilles jaunes et épinards dans une sauce dal (oignons, ail, gingembre, piment chili, sel, poivre), garnis de gingembre.",
+        "spice_level": "Peu épicé"
+      },
+      {
+        "name": "Dal Makhani",
+        "description": "Lentilles noires dans une sauce crémeuse aux épices indiennes (gingembre, ail, beurre, épices), garni de crème et huile Rogan.",
+        "spice_level": "Moyennement épicé"
+      },
+      {
+        "name": "Aloo Gobi",
+        "description": "Chou-fleur et pommes de terre dans une sauce épicée (curry, gingembre, ail, épices indiennes).",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Paneer Pepper Masala",
+        "description": "Paneer, oignons, poivrons vert et rouge dans une sauce masala (Gravy jaune), garni de coriandre.",
+        "spice_level": "Épicé"
+      }
+    ],
+    "biryani": [
+      {
+        "name": "Biryani Végétarien",
+        "description": "Riz basmati sauté, courgettes, chou-fleur, carottes, brocoli, haricots et épices indiennes, ghee (beurre clarifié), eau de rose.",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Biryani Crevettes",
+        "description": "Riz basmati sauté, crevettes, épices indiennes, ghee (beurre clarifié), eau de rose.",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Biryani Poulet",
+        "description": "Riz basmati sauté, cuisses de poulet désossées marinées, épices indiennes, ghee (beurre clarifié), eau de rose.",
+        "spice_level": "Épicé"
+      },
+      {
+        "name": "Biryani Agneau",
+        "description": "Riz basmati sauté, cubes d'agneau du Québec, épices indiennes, ghee (beurre clarifié), eau de rose.",
+        "spice_level": "Épicé"
+      }
+    ],
+    "accompagnements": [
+      {
+        "name": "Naan nature",
+        "description": "Farine, œufs, crème et huile.",
+        "contains_gluten": true
+      },
+      {
+        "name": "Naan à l'ail",
+        "description": "Farine, œufs, crème, ail, coriandre et beurre.",
+        "contains_gluten": true
+      },
+      {
+        "name": "Naan au fromage",
+        "description": "Farine, œufs, crème, fromage Paneer et épices indiennes (chili, sel, poivre, cumin).",
+        "contains_gluten": true
+      },
+      {
+        "name": "Naan au beurre",
+        "description": "Farine, œufs, crème, huile et beurre.",
+        "contains_gluten": true
+      },
+      {
+        "name": "Roti Chapati",
+        "description": "Pain plat de farine de blé entier, huile et eau.",
+        "contains_gluten": true
+      }
+    ],
+    "sauces_et_termes": [
+      {
+        "id": 1,
+        "name": "Aloo Bhujia",
+        "description": "Nouilles frites de pommes de terre, farine blanche, farine de pois chiches et épices."
+      },
+      {
+        "id": 2,
+        "name": "Riz soufflé",
+        "description": "Riz soufflé obtenu par haute vapeur."
+      },
+      {
+        "id": 3,
+        "name": "Paneer",
+        "description": "Fromage cottage indien à base de lait de vache, pasteurisé (Ne fond pas)."
+      },
+      {
+        "id": 4,
+        "name": "Sauce tamarin",
+        "description": "Pulpe de tamarin, sucre, gingembre, sel, ail, piment, graines de fenouil, cumin, eau de rose, eau de kewra."
+      },
+      {
+        "id": 6,
+        "name": "Chutney végétalien",
+        "description": "Mangue, coriandre, menthe, piments verts, tomates rôties, chaat masala. (Sucré avec une touche épicée)"
+      },
+      {
+        "id": 7,
+        "name": "Chutney maison",
+        "description": "Yaourt, menthe, coriandre, gingembre, piments verts, chaat masala, lime et épices indiennes. (Crémeux et frais)"
+      },
+      {
+        "id": 8,
+        "name": "Marinade Tikka",
+        "description": "Garam masala, jus de citron, piment vert, pâte de gingembre et ail, huile de moutarde, yaourt."
+      },
+      {
+        "id": 9,
+        "name": "Tartare India Rosa",
+        "description": "Yaourt, chutney d'ananas, concombre, graines de cumin grillées."
+      },
+      {
+        "id": 11,
+        "name": "Gravy jaune",
+        "description": "Pâte de gingembre et ail, oignons, épices indiennes, tomates, curcuma, garam masala, coriandre en poudre, piment rouge, piment vert, noix de cajou."
+      },
+      {
+        "id": 12,
+        "name": "Kofta",
+        "description": "Boulettes frites dans l'huile; Mélange de pommes de terre, paneer et épices indiennes."
+      },
+      {
+        "id": 13,
+        "name": "Mélange de fromage indien",
+        "description": "Mélange de Paneer et mozzarella avec des piments verts hachés."
+      },
+      {
+        "id": 14,
+        "name": "Raita",
+        "description": "Yaourt, épices indiennes (sel noir, graines de cumin grillées, poivre)."
+      },
+      {
+        "id": 16,
+        "name": "Sauce blanche",
+        "description": "Noix de cajou, oignons blancs, épices indiennes (pâte de gingembre et ail, oignons, épices indiennes, curcuma, garam masala, coriandre en poudre, piment rouge, piment vert)."
+      },
+      {
+        "id": 17,
+        "name": "Sauce Vindaloo",
+        "description": "Gravy à l'oignon, piments, vinaigre, jus de citron."
+      },
+      {
+        "id": 19,
+        "name": "Sauce au beurre",
+        "description": "Tomates, noix de cajou, oignons, gingembre, ail, épices (feuille de Laurier, cannelle)."
+      },
+      {
+        "id": 20,
+        "name": "Sauce Malai",
+        "description": "Crème épaisse, fenugrec, cardamome, oignon, graines de melon, épices de macis."
+      },
+      {
+        "id": 21,
+        "name": "Rogan Oil",
+        "description": "Huile récupérée sur le dessus de la marmite de gravy/sauce."
+      },
+      {
+        "id": 22,
+        "name": "Sauce Korma",
+        "description": "Gravy jaune avec épices korma, crème et sucre."
+      }
+    ]
+  },
+  "notes": {
+    "contain_gluten": "Les items marqués **CONTAIN GLUTEN** contiennent du gluten (coquille Dahi Puri, Samosa, Crevettes Malai, etc.)."
+  }
+}

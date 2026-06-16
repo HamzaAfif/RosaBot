@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RosaBot — India Rosa</title>
+  <style>
+    :root {
+      --rosa: #b1183f;
+      --rosa-dark: #7d0f2c;
+      --bg: #faf6f2;
+      --bot-bubble: #ffffff;
+      --user-bubble: #b1183f;
+      --text: #2b2b2b;
+      --muted: #8a8a8a;
+      --border: #ecdfe3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .chat {
+      width: 100%;
+      max-width: 480px;
+      height: 100vh;
+      max-height: 720px;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(125, 15, 44, 0.12);
+    }
+    header {
+      background: var(--rosa);
+      color: #fff;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    header .logo {
+      width: 34px; height: 34px;
+      background: #fff; color: var(--rosa);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 18px;
+    }
+    header h1 { font-size: 17px; font-weight: 600; }
+    header p { font-size: 12px; opacity: 0.85; }
+    #messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .msg { max-width: 82%; padding: 10px 14px; border-radius: 14px; line-height: 1.45; font-size: 14px; white-space: pre-wrap; word-wrap: break-word; }
+    .msg.bot { background: var(--bot-bubble); border: 1px solid var(--border); align-self: flex-start; border-bottom-left-radius: 4px; }
+    .msg.user { background: var(--user-bubble); color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+    .msg.typing { color: var(--muted); font-style: italic; }
+    .composer { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--border); background: #fff; }
+    #input {
+      flex: 1; padding: 11px 14px; border: 1px solid var(--border);
+      border-radius: 22px; font-size: 14px; outline: none;
+    }
+    #input:focus { border-color: var(--rosa); }
+    #send {
+      background: var(--rosa); color: #fff; border: none;
+      width: 44px; height: 44px; border-radius: 50%; cursor: pointer;
+      font-size: 18px; flex-shrink: 0; transition: background 0.15s;
+    }
+    #send:hover { background: var(--rosa-dark); }
+    #send:disabled { opacity: 0.5; cursor: default; }
+  </style>
+</head>
+<body>
+  <div class="chat">
+    <header>
+      <div class="logo">🌹</div>
+      <div>
+        <h1>RosaBot</h1>
+        <p>India Rosa · staff assistant</p>
+      </div>
+    </header>
+    <div id="messages"></div>
+    <div class="composer">
+      <input id="input" type="text" placeholder="Ask about a dish, cocktail, or allergen…" autocomplete="off" />
+      <button id="send" title="Send">➤</button>
+    </div>
+  </div>
+
+  <script>
+  
+    const API_URL = "http://localhost:8000/chat";
+
+    const CONVERSATION_ID = "web-" + Math.random().toString(36).slice(2, 10);
+
+    const messagesEl = document.getElementById("messages");
+    const inputEl = document.getElementById("input");
+    const sendEl = document.getElementById("send");
+
+    function addMessage(text, who) {
+      const div = document.createElement("div");
+      div.className = `msg ${who}`;
+      div.textContent = text;
+      messagesEl.appendChild(div);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+      return div;
+    }
+
+    async function send() {
+      const text = inputEl.value.trim();
+      if (!text) return;
+
+      addMessage(text, "user");
+      inputEl.value = "";
+      inputEl.focus();
+      sendEl.disabled = true;
+
+      const typing = addMessage("RosaBot is thinking…", "bot typing");
+
+      try {
+        const res = await fetch(API_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text, conversation_id: CONVERSATION_ID }),
+        });
+        if (!res.ok) throw new Error(`Server returned ${res.status}`);
+        const data = await res.json();
+        typing.remove();
+        addMessage(data.reply, "bot");
+      } catch (err) {
+        typing.remove();
+        addMessage("⚠️ Couldn't reach RosaBot. Is the backend running on " + API_URL + "?", "bot");
+        console.error(err);
+      } finally {
+        sendEl.disabled = false;
+      }
+    }
+
+    sendEl.addEventListener("click", send);
+    inputEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") send();
+    });
+
+
+    addMessage("Hi! I'm RosaBot 🌹 — ask me about any dish, cocktail, ingredient, or allergen on the India Rosa menu.", "bot");
+    inputEl.focus();
+  </script>
+</body>
+</html>

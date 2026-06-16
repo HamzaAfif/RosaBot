@@ -1,0 +1,357 @@
+{
+  "menu_name": "INDIA ROSA DRINKS HIVER 2026",
+  "cocktails": [
+    {
+      "name": "PISCO SOUR À LA VIOLETTE",
+      "category": "Signature",
+      "ingredients": [
+        "1.75 oz Pisco",
+        "0.5 oz Liqueur de Violette Quaglia",
+        "1.0 oz Jus de Lime",
+        "0.75 oz Sirop d'Hibiscus & Lavande",
+        "1.0 oz Blanc d'oeuf"
+      ],
+      "method": "Dry shake / shake / fine strain",
+      "glass": "Lowball à design 12 oz",
+      "ice": "Grosse glace à sour maison",
+      "garnish": "Lime déshydratée + Lavande + Red coloring flower design",
+      "note": "Laisser reposer la mousse 30 secondes avant de dessiner pour un meilleur dessin"
+    },
+    {
+      "name": "SOUR ORIENTAL",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Gin Bombay Sapphire",
+        "0.5 oz Gin Opihr",
+        "0.5 oz Napoléon Mandarin",
+        "0.75 oz Nectar de Poire",
+        "1.0 oz Jus de Citron",
+        "0.75 oz Sirop de Saffran",
+        "1.0 oz Blanc d'oeuf"
+      ],
+      "method": "Dry shake / shake / fine strain",
+      "glass": "Lowball à sour",
+      "ice": "Grosse glace à sour maison",
+      "garnish": "Pousses de coriandre + Fleurs violettes",
+      "note": "Si Opihr non disponible, remplacer par Beefeater et ajouter une barspoon de tincture maison"
+    },
+    {
+      "name": "MEZCALONI",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Mezcal Habitante",
+        "1.0 oz Amaro Averna Siciliano",
+        "0.5 oz Amermelade",
+        "0.5 oz Campari",
+        "2 dash Rhubarbe bitters"
+      ],
+      "method": "Stir in Mixing glass",
+      "glass": "Old fashioned lowball",
+      "ice": "Big clear ice cube",
+      "garnish": "Orange twist + Grosse olive"
+    },
+    {
+      "name": "JUNGLE MASALA",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Mezcal Habitante",
+        "1.0 oz Sirop de Miel Épicé Masala",
+        "1.0 oz Purée de Fruit de la passion",
+        "1.0 oz Jus de Lime"
+      ],
+      "method": "Shake / fine strain",
+      "glass": "Clear lowball",
+      "ice": "Big clear ice cube",
+      "garnish": "Orange déshydratée + Dried red chili"
+    },
+    {
+      "name": "AMRITA",
+      "category": "Signature",
+      "note": "Griffintown exclusive",
+      "ingredients": [
+        "4 oz Clarified Amrita Mix (Amrut Single Malt, Disaronno Amaretto, Chartreuse Jaune, Shaman Sino, jus de Lime et lait de coco)"
+      ],
+      "method": "Stir in Mixing glass",
+      "glass": "Clear lowball",
+      "ice": "Big clear ice cube",
+      "garnish": "Stamp fleur India Rosa + Skeleton Leaf"
+    },
+    {
+      "name": "NEW DÉLICE OLD FASHIONED",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Amrut Single Malt",
+        "1.0 oz Chivas 12 ans",
+        "0.25 oz Sirop de Safran",
+        "2 dash bitters de Gingembre",
+        "2 dash Angostura bitters"
+      ],
+      "method": "Stir in Mixing glass",
+      "glass": "Old fashioned lowball",
+      "ice": "Big clear ice cube",
+      "garnish": "Orange twist + Bâton de canelle flambé à la table"
+    },
+    {
+      "name": "OAXACA IN DELHI",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Tequila 1800 Silver",
+        "0.5 oz Mezcal Habitante",
+        "0.75 oz Camerise Menaud",
+        "3.5 oz Premix Oaxaca (Pamplemousse, Jus Pommegrenade Cerise, Sirop Hibiscus & Lavande, Lime)"
+      ],
+      "method": "Shake / Strain",
+      "glass": "Clear Highball",
+      "ice": "Glace régulière",
+      "garnish": "Peinture de sirop hibiscus & lavande + Rim Tajin & Hibiscus mix"
+    },
+    {
+      "name": "ROSA'S ELIXIR",
+      "category": "Signature",
+      "ingredients": [
+        "1.25 oz Gin Hendrick's",
+        "0.75 oz Lillet Blanc",
+        "0.25 oz Chartreuse Verte",
+        "0.5 oz Sirop de Cardamome",
+        "0.5 oz Sirop de Gingembre",
+        "1.5 oz Jus de Citron",
+        "4 feuilles de Coriandre fraîche (lavé)",
+        "3 dash Celeri bitters"
+      ],
+      "method": "Shake Hard / Double strain / Stir",
+      "glass": "Clear Highball",
+      "ice": "Glace régulière",
+      "garnish": "2 skeleton leaves + Lime déshydratée"
+    },
+    {
+      "name": "NIRVANA",
+      "category": "Signature",
+      "ingredients": [
+        "7-8 Feuilles de Menthe (Muddle)",
+        "1.5 oz Havana 3 ans Rhum Blanc",
+        "0.5 oz Bergamotto Quaglia",
+        "1.0 oz Nectar de Goyave",
+        "0.75 oz Sirop de thé Earl Grey",
+        "1.0 oz Jus de Lime",
+        "Top Soda"
+      ],
+      "method": "Muddle / Build / Top / Stir",
+      "glass": "Highball design",
+      "ice": "Glace régulière + Pebble Ice",
+      "garnish": "Pebble Ice + Angostura dashes sur la pebble ice + Bouquet de Menthe + Lime déshydratée"
+    },
+    {
+      "name": "LES CHAMPS DORÉS",
+      "category": "Signature",
+      "ingredients": [
+        "1.5 oz Jameson Whisky",
+        "0.5 oz Napoléon Mandarin",
+        "1.0 oz Jus de Citron",
+        "0.75 oz Sirop de camomille",
+        "1.0 oz Blanc d'oeuf",
+        "2 cerises de terre"
+      ],
+      "method": "Muddle / Dry shake / Shake / Fine Strain",
+      "glass": "Clear Highball",
+      "ice": "Glace régulière",
+      "garnish": "Cerise de terre (open, twist and snap)"
+    },
+    {
+      "name": "TIKI GURU",
+      "category": "Tiki",
+      "ingredients": [
+        "1.0 oz Vodka Absolut",
+        "0.5 oz Malibu Coconut",
+        "0.5 oz Galliano",
+        "3.5 oz Premix Guru (Pêches blanches, Fruit de la passion, Jus Citron, sirop simple)"
+      ],
+      "method": "Shake / Strain",
+      "glass": "Tiki",
+      "garnish": "Feuille d'ananas / Ice vessel / Lime déshydratée / Bleu coloring, then Brunoise d'ananas, then red coloring on top"
+    },
+    {
+      "name": "TIKI BHANGRA",
+      "category": "Tiki",
+      "ingredients": [
+        "1.0 oz Pisco",
+        "0.5 oz Averna Amaro Siciliano",
+        "0.5 oz St-Germain",
+        "3.5 oz Premix Bhangra (Mangue, Goyave, Coconut, Orange, Citron)"
+      ],
+      "method": "Shake / Strain",
+      "glass": "Tiki",
+      "garnish": "Feuille d'ananas / Ice vessel / Lime déshydratée / Brunoise d'ananas / Coloring rouge / Anise étoilée + Clous de girofle"
+    },
+    {
+      "name": "TIKI NAMASTE",
+      "category": "Tiki",
+      "ingredients": [
+        "1.0 oz Rhum Havana 7 ans",
+        "1.0 oz Rhum Ananas Rosemont",
+        "0.25 oz Kahlua",
+        "3.5 oz Premix Namaste (Ananas, Oleo saccharum d'ananas, Sirop de cardamome, Lime)",
+        "3 dash bitters de Cacao"
+      ],
+      "method": "Shake / Strain",
+      "glass": "Balon à Cognac",
+      "ice": "Glace régulière + Pebble Ice pour finir",
+      "garnish": "2x Feuilles d'ananas / Angostura dashes sur la pebble ice / Ananas deshydratée / 3-4 cardamomes pods"
+    },
+    {
+      "name": "TIKI SHANTI",
+      "category": "Tiki",
+      "ingredients": [
+        "0.75 oz Rhum Havana Especial / Reserva",
+        "0.75 oz Rhum foncé Lemon Hart",
+        "0.5 oz Calvados",
+        "3.5 oz Premix Shanti (Carrotte, Ananas, Canelle, Gingembre, Lime)",
+        "3 dash bitters de Gingembre"
+      ],
+      "method": "Shake / Strain",
+      "glass": "Tiki",
+      "ice": "Glace régulière + Pebble Ice pour finir",
+      "garnish": "Ananas déshydratée + Bâton de Canelle + Bouquet de Menthe + Cerise marasquin"
+    },
+    {
+      "name": "MADEMOISELLE ROSA",
+      "category": "Signature",
+      "ingredients": [
+        "1.25 oz Vodka Absolut",
+        "0.75 oz Galliano",
+        "3.5 oz Premix Mlle Rosa (Pamplemousse, Sirop de Romarin, Citron)",
+        "2 dash Peychauds bitters",
+        "3 dash Vegan Foamer"
+      ],
+      "method": "Dry Shake / Shake / Fine strain",
+      "glass": "Coupette 8 oz",
+      "garnish": "Lime déshydratée / Dessin fleur rouge / Branche de Romarin flambée"
+    },
+    {
+      "name": "TAMARITA",
+      "category": "Signature",
+      "ingredients": [
+        "1.5 oz Tequila 1800 silver",
+        "0.5 oz Liquore Rabarbaro Quaglia",
+        "0.25 oz Campari",
+        "1.0 oz Jus de Lime",
+        "0.5 oz Mix Tamarin maison"
+      ],
+      "method": "Shake / Fine strain",
+      "glass": "Coupette Martini 7 oz",
+      "garnish": "Rim Tajin + Bouquet de menthe",
+      "note": "2x Spray Absinthe sur l'extérieur du cocktail"
+    },
+    {
+      "name": "MUMBAI MANHATTAN",
+      "category": "Signature",
+      "ingredients": [
+        "1.0 oz Crown Royal Whiskey",
+        "1.0 oz Bumbu Rhum",
+        "0.5 oz Amaro Nonino",
+        "0.25 oz Amaro Averna Siciliano",
+        "0.25 oz Humble Banane",
+        "1 dash Angostura bitters"
+      ],
+      "method": "Stir",
+      "glass": "Coupette Martini 7 oz",
+      "garnish": "Banane caramélisée; tranche de banane avec sucre flambée à la torche"
+    },
+    {
+      "name": "COCO GALORE",
+      "category": "Signature",
+      "ingredients": [
+        "1.25 oz Rosemont Coco",
+        "0.75 oz Soho",
+        "1.0 oz Lait de Coco",
+        "0.75 oz Jus de Lime",
+        "0.50 oz Sirop de Pandan"
+      ],
+      "method": "Shake / Fine strain",
+      "glass": "Coupette Martini 7 oz",
+      "garnish": "Full outside rim of shredded coconut flakes + Dried lime"
+    },
+    {
+      "name": "CHOCO VERDE",
+      "category": "Signature",
+      "ingredients": [
+        "1.5 oz Rhum chocolat Morbleu",
+        "0.5 oz Cointreau",
+        "0.5 oz Lait de Coconut",
+        "1.0 oz Jus de Citron",
+        "0.75 oz Sirop Matcha",
+        "1.0 oz Blanc d'oeuf",
+        "2 dash orange bitters",
+        "2 dash chocolat bitters"
+      ],
+      "method": "Dry shake / Shake / Double strain",
+      "glass": "Coupette 8 oz",
+      "garnish": "Dried Roses flower sprinkle"
+    },
+    {
+      "name": "GECKO MULE",
+      "category": "Mocktail",
+      "ingredients": [
+        "6-7 Feuilles de Menthe (Muddle)",
+        "1.0 oz Jus de Lime",
+        "0.75 oz Sirop de Saffran",
+        "Top Gingerbeer"
+      ],
+      "method": "Muddle + Built + Stir",
+      "glass": "Lowball à sour",
+      "garnish": "Bouquet de Menthe + Lime déshydratée + Gingembre cristallisé"
+    },
+    {
+      "name": "CHAI LEMONADE",
+      "category": "Mocktail",
+      "ingredients": [
+        "2.5 oz Jus de Citron",
+        "2.0 oz Sirop Chai Masala",
+        "Top Soda"
+      ],
+      "method": "Built + Stir",
+      "glass": "Highball",
+      "garnish": "Lime déshydratée + Anis étoilé + Clou de girofle"
+    },
+    {
+      "name": "MANGOA",
+      "category": "Mocktail",
+      "ingredients": [
+        "2.0 oz Purée de Mangue",
+        "2.0 oz Eau de coconut",
+        "2.0 oz Sprite",
+        "Top Foam Cardamome et Coconut"
+      ],
+      "method": "Shake + Strain + Add Sprite + Stir + Top foam",
+      "glass": "Highball",
+      "garnish": "Mousse de coconut et cardamome + Toasted coconut chips + cardamom pods"
+    },
+    {
+      "name": "SHISHYA (apprenti Guru)",
+      "category": "Mocktail",
+      "ingredients": [
+        "2.5 oz Premix Guru (Pêches blanches, Fruit de la passion, Jus Citron, sirop simple)",
+        "0.5 oz Sirop Simple",
+        "0.5 oz Jus de Citron",
+        "Top Soda"
+      ],
+      "method": "Shake / Strain / Top Soda / Stir gently",
+      "glass": "Coupette 8 oz",
+      "garnish": "Fleur centaurée"
+    },
+    {
+      "name": "DHARMA",
+      "category": "Mocktail",
+      "ingredients": [
+        "6-7 Feuilles de Menthe (Muddle)",
+        "1.0 oz Purée de Fraise",
+        "2.0 oz Jus Pommegrenade et cerise",
+        "1.0 oz Jus de Citron",
+        "0.5 oz Sirop d'érable",
+        "Top Soda"
+      ],
+      "method": "Muddle + Built + Top + Stir",
+      "glass": "Lowball à design",
+      "garnish": "Bouquet de Menthe + Lime déshydratée"
+    }
+  ]
+}

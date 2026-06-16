@@ -1,0 +1,26 @@
+@'
+
+.env
+backend/.env
+*.env
+
+
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Path .gitignore -Encoding utf8

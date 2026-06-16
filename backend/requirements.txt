@@ -1,0 +1,17 @@
+# --- Web framework ---
+fastapi
+uvicorn[standard]
+
+# --- LangChain + OpenAI ---
+langchain
+langchain-openai
+langgraph 
+
+# --- Data validation ---
+pydantic
+
+# --- Environment / config ---
+python-dotenv
+
+# --- Testing ---
+pytest

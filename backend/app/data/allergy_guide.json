@@ -1,0 +1,44 @@
+{
+  "source": "kitchen-curated",
+  "contains_gluten": [
+    "Samosas Végétarien",
+    "Koftas Végé Chimichurri",
+    "Naan",
+    "Tandoori Rôti",
+    "Gulab Jamun",
+    "Tiramisu"
+  ],
+  "contains_nuts": [
+    "Salade de Betteraves",
+    "Poulet Korma",
+    "Agneau Korma",
+    "Glace à la Pistache"
+  ],
+  "lactose_free_potential": [
+    "Crevettes Malai",
+    "Morue Goan",
+    "Poulet Madras",
+    "Poulet Punjabi",
+    "Agneau Vindaloo",
+    "Crevettes Calcutta",
+    "Moules Indiennes Korma"
+  ],
+  "vegan_options": [
+    "Soupe Dal Shorba",
+    "Aloo Tikki",
+    "Salade de Betteraves",
+    "Salade d'Endives",
+    "Koftas Végé Chimichurri",
+    "Samosas Végétarien",
+    "Bahji Kale & Oignons",
+    "Légumes Tandoori",
+    "Aloo Gobi",
+    "Bharta",
+    "Amritsari Chole",
+    "Dal Tarka aux Épinards",
+    "Sabzi aux Légumes",
+    "Tandoori Rôti",
+    "Riz Pulao",
+    "Biryani Légumes"
+  ]
+}
