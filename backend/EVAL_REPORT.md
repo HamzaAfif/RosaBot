@@ -37,6 +37,14 @@ signal).
 cost, and the full tool-call trace, so performance and cost are observable, not
 guessed.
 
+![LangSmith trace view of an evaluation run](docs/images/langsmith-eval-run.png)
+
+*Every eval run is traced in LangSmith. Each question produces two runs: the
+`LangGraph` run is RosaBot answering; the `ChatOpenAI` run is the LLM-judge grading
+it. The view captures per-call latency, token count, and cost. Note that the slow
+calls (6-12s) are the multi-item recommendation queries — the telemetry makes the
+latency cost-center visible at a glance.*
+
 **Reproducibility.** The whole suite runs with one command (`python -m eval.run_eval`)
 and writes a JSON record of every question, answer, and verdict.
 
