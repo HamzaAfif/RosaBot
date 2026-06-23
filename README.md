@@ -10,7 +10,7 @@ or English.
 It's a real tool solving a real problem I see every shift, built as a portfolio
 project while doing my Master's in Software Engineering at UQAM.
 
-> **🌹 Live demo:** https://rosa-3v7s2zjun-hamzaafifs-projects.vercel.app/
+> **🌹 Live demo:** https://rosa-bot.vercel.app
 > **Stack:** React · Tailwind · FastAPI · LangChain · OpenAI
 
 ---
@@ -46,6 +46,24 @@ called and why.
 
 This is the kind of judgment I'm proud of: choosing the right pattern for the data
 instead of reaching for the trendy default.
+
+## Does it actually work? I measured it.
+
+Most projects stop at "it seemed fine when I tried it." I wanted a real number, so
+I built an automated evaluation suite: a fixed set of real staff questions, graded
+against known-correct facts, with every run traced in LangSmith for latency and
+cost.
+
+The first run scored **44%**. Investigating the failures surfaced real bugs; a
+whole dessert section missing from the searchable data, and a dietary
+misclassification (a dairy dish listed as vegan). After fixing them, accuracy rose
+to **81%** — a measured, documented improvement, not a vibe.
+
+**→ Full write-up: [EVAL_REPORT.md](EVAL_REPORT.md)**; method, baseline, what
+failed, what I fixed, and the before/after numbers.
+
+That measure → find failures → fix → re-measure loop is the difference between a
+demo and a system.
 
 ## How it's built
 
