@@ -90,6 +90,39 @@ JSON, the tools wrap the repository, the agent calls the tools, the API wraps th
 agent. Each layer has one job, so swapping the JSON for a real database later means
 changing one file and nothing else.
 
+## Design patterns used (and why)
+
+I didn't set out to "use patterns" — these emerged because the problems called for
+them. Naming them here because recognizing them after the fact is part of
+understanding why the design holds together.
+
+**Repository** : `MenuRepository` is the single class that owns all menu-data
+access. Nothing else in the codebase touches the raw JSON. The agent, the tools,
+the API — none of them know whether the data lives in JSON files, a database, or an
+external API. Swapping the storage later means changing one class and nothing else.
+This is the pattern doing exactly what it's for: isolating data access behind a
+clean interface.
+
+**Adapter** : the three menu files each have a different shape (one nests items
+under `cocktails`, another under `sections.cocktails`, the food file under
+`sections.<category>`), and different field names. The repository's `_normalize()`
+step adapts all three incompatible formats into one consistent item shape, so the
+rest of the system sees a single uniform structure. That translation of
+incompatible interfaces into a common one is the Adapter's job.
+
+**Facade** : the three tools (`search_menu_items`, `get_menu_summary`,
+`filter_by_dietary`) are simple front-doors over more complex machinery. When the
+agent calls `filter_by_dietary("nuts")`, it has no idea that underneath there's
+ingredient normalization, a two-tier allergen merge (curated + inferred), and a
+disclaimer being attached. The tool presents a simple interface and hides the
+complexity behind it.
+
+The broader principle tying these together is **separation of concerns**: data
+access (repository) → capability wrappers (tools) → reasoning (agent) → transport
+(API), each layer with one job. That layering is what makes the system testable
+(the data layer is unit-tested in isolation) and changeable (a fix in one layer
+doesn't ripple outward).
+
 ### The three tools
 
 | Tool | What it's for | Example |
