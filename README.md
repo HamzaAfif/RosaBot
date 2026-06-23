@@ -1,5 +1,7 @@
 # RosaBot 🌹
 
+![CI](https://github.com/HamzaAfif/RosaBot/actions/workflows/ci.yml/badge.svg)
+
 A full-stack AI assistant I built for the restaurant where I work part-time as a
 busser in Montreal. During busy shifts I kept noticing the same problems — new
 staff struggling to learn a large menu, people unsure about allergens, bartenders
