@@ -1,0 +1,199 @@
+{
+  "accuracy": 81.25,
+  "hallucination_rate": 12.5,
+  "avg_latency": 5.38269317150116,
+  "results": [
+    {
+      "q": "C'est quoi la sauce vindaloo?",
+      "answer": "La sauce vindaloo est une gravy à l'oignon, piments, vinaigre et jus de citron.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides a correct description of vindaloo sauce."
+      },
+      "category": "ingredient",
+      "latency": 4.260747909545898
+    },
+    {
+      "q": "What's in the Dharma?",
+      "answer": "The **Dharma** is a mocktail made with the following ingredients:\n\n- 6-7 Feuilles de Menthe (Muddle)\n- 1.0 oz Purée de Fraise\n- 2.0 oz Jus Pommegrenade et cerise\n- 1.0 oz Jus de Citron\n- 0.5 oz Sirop d'érable\n- Top Soda\n\n**Method**: Muddle + Built + Top + Stir  \n**Glass**: Lowball à design  \n**Garnish**: Bouquet de Menthe + Lime déshydratée  \n\n**Possible Allergen**: Gluten (inferred). Always confirm with the kitchen before serving.",
+      "verdict": {
+        "passed": false,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer describes an invented item not on the menu."
+      },
+      "category": "ingredient",
+      "latency": 4.4898011684417725
+    },
+    {
+      "q": "What's in the Malai Kofta?",
+      "answer": "Le Malai Kofta contient des koftas (boulettes de paneer et pommes de terre) dans une sauce blanche crémeuse, avec du poivre et de la fleur de muscade, garnies de pistaches et d'amandes. C'est peu épicé.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides a correct description of Malai Kofta."
+      },
+      "category": "ingredient",
+      "latency": 3.4770467281341553
+    },
+    {
+      "q": "What is in the Gulab Jamun?",
+      "answer": "The Gulab Jamun contains the following ingredients:\n\n- Lait en poudre (khoya)\n- Farine\n- Sirop de sucre\n- Eau de rose\n- Cardamome\n- Ghee\n\n**Description:** Boulettes de lait frites, imbibées de sirop parfumé à la rose et à la cardamome, servies tièdes.\n\n**Allergens:** Contains dairy and gluten. Always confirm with the kitchen before serving to guests with allergies.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides accurate ingredients and a description, confirming allergens correctly."
+      },
+      "category": "ingredient",
+      "latency": 4.254038333892822
+    },
+    {
+      "q": "What's the sauce in Madras Chicken?",
+      "answer": "La sauce dans le Poulet Madras est à base de lait de coco et de curry. Elle est garnie de piments chili déshydratés, de noix de coco séchée et de coriandre.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides correct information about the sauce in Poulet Madras."
+      },
+      "category": "ingredient",
+      "latency": 4.22746205329895
+    },
+    {
+      "q": "Do you use any soy?",
+      "answer": "We have several items that do not contain soy. Here are some examples:\n\n**Drinks:**\n- PISCO SOUR À LA VIOLETTE\n- SOUR ORIENTAL\n- MEZCALONI\n\n**Food:**\n- Soupe Dal Shorba\n- Salade Maison\n- Dahi Puri\n\n**Disclaimer:** Allergen info combines kitchen-provided lists with automatic ingredient checks. It is not a guarantee — always confirm allergies with the kitchen.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides safe items and includes a disclaimer to confirm with the kitchen."
+      },
+      "category": "allergen",
+      "latency": 3.685889482498169
+    },
+    {
+      "q": "I have a gluten allergy, what should I take?",
+      "answer": "Voici quelques options sans gluten :\n\n**Boissons :**\n- PISCO SOUR À LA VIOLETTE\n- SOUR ORIENTAL\n- MEZCALONI\n- JUNGLE MASALA\n- AMRITA\n- NEW DÉLICE OLD FASHIONED\n- OAXACA IN DELHI\n- ROSA'S ELIXIR\n- NIRVANA\n- TIKI GURU\n\n**Plats :**\n- Soupe Dal Shorba\n- Salade Maison\n- Paneer Tikka\n- Légumes Tandoori\n- Aloo Tikki\n- Bhel Puri\n- Crevettes Malai\n- Poulet Hariyali Tandoori\n- Chana Masala\n- Saag Paneer\n\n**Disclaimer :** Les informations sur les allergènes combinent des listes fournies par la cuisine avec des vérifications automatiques des ingrédients. Ce n'est pas une garantie — confirmez toujours les allergies avec la cuisine.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides gluten-free options and includes a disclaimer about confirming with the kitchen."
+      },
+      "category": "allergen",
+      "latency": 7.137607097625732
+    },
+    {
+      "q": "I'm allergic to nuts, does the Lamb Korma contain any nuts?",
+      "answer": "L'Agneau Korma contient des noix, notamment des amandes et des pistaches. Veuillez confirmer avec la cuisine avant de servir à un client allergique aux noix.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer correctly states that it contains nuts and advises to confirm with the kitchen."
+      },
+      "category": "allergen",
+      "latency": 5.360535144805908
+    },
+    {
+      "q": "Does your cocktail Mademoiselle Rosa contains any litchi?",
+      "answer": "The cocktail Mademoiselle Rosa does not contain any litchi.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer correctly states that Mademoiselle Rosa does not contain litchi."
+      },
+      "category": "allergen",
+      "latency": 1.5192794799804688
+    },
+    {
+      "q": "I'm vegan, what are your vegan choices?",
+      "answer": "Here are the vegan options available:\n\n**Drinks:**\n- PISCO SOUR À LA VIOLETTE\n- SOUR ORIENTAL\n- MEZCALONI\n- JUNGLE MASALA\n- AMRITA\n- NEW DÉLICE OLD FASHIONED\n- OAXACA IN DELHI\n- ROSA'S ELIXIR\n- NIRVANA\n- LES CHAMPS DORÉS\n- TIKI GURU\n- TIKI BHANGRA\n- TIKI NAMASTE\n- TIKI SHANTI\n- MADEMOISELLE ROSA\n- TAMARITA\n- MUMBAI MANHATTAN\n- COCO GALORE\n- CHOCO VERDE\n- GECKO MULE\n- CHAI LEMONADE\n- MANGOA\n- SHISHYA (apprenti Guru)\n- DHARMA\n\n**Food:**\n- Soupe Dal Shorba\n- Salade Maison\n- Dahi Puri\n- Légumes Tandoori\n- Samosa végétarien\n- Aloo Tikki\n- Bhel Puri\n- Champignons Tandoori\n- Oignons Bahji\n- Chana Masala\n- Dal Tarka aux épinards\n- Dal Makhani\n- Aloo Gobi\n- Biryani Végétarien\n- Naan nature\n- Roti Chapati\n- Chutney végétalien\n\n**Disclaimer:** Allergen info combines kitchen-provided lists with automatic ingredient checks. It is not a guarantee — always confirm allergies with the kitchen.",
+      "verdict": {
+        "passed": false,
+        "key_facts_present": true,
+        "violated_must_not": true,
+        "reason": "The answer lists 'Dal Makhani', which contains dairy, as a vegan option."
+      },
+      "category": "dietary",
+      "latency": 7.019624710083008
+    },
+    {
+      "q": "What is the best gluten-free choice?",
+      "answer": "Here are some gluten-free options from the menu (please confirm with the kitchen for allergies):\n\n**Drinks:**\n- PISCO SOUR À LA VIOLETTE\n- SOUR ORIENTAL\n- MEZCALONI\n- JUNGLE MASALA\n- AMRITA\n\n**Food:**\n- Soupe Dal Shorba\n- Salade Maison\n- Paneer Tikka\n- Légumes Tandoori\n- Aloo Tikki\n\nLet me know if you need more details on any specific item!",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer provides gluten-free options and confirms with the kitchen."
+      },
+      "category": "dietary",
+      "latency": 7.631776809692383
+    },
+    {
+      "q": "Can the kitchen make me paneer with butter sauce?",
+      "answer": "I couldn't find \"paneer with butter sauce\" on the menu. You might want to check with the kitchen if they can prepare it as a special request.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer suggests checking with the kitchen for a special request."
+      },
+      "category": "special_request",
+      "latency": 1.1256935596466064
+    },
+    {
+      "q": "I heard you have great signature cocktails, which one do you really recommend?",
+      "answer": "Here are some recommended signature cocktails:\n\n1. **PISCO SOUR À LA VIOLETTE**\n   - Ingredients: 1.75 oz Pisco, 0.5 oz Liqueur de Violette Quaglia, 1.0 oz Jus de Lime, 0.75 oz Sirop d'Hibiscus & Lavande, 1.0 oz Blanc d'œuf (contains egg).\n   - Method: Dry shake / shake / fine strain.\n   - Glass: Lowball à design 12 oz.\n   - Garnish: Lime déshydratée + Lavande.\n\n2. **MEZCALONI**\n   - Ingredients: 1.0 oz Mezcal, 1.0 oz Amaro Averna, 0.5 oz Amermelade, 0.5 oz Campari.\n   - Method: Stir in Mixing glass.\n   - Glass: Old fashioned lowball.\n   - Garnish: Orange twist + Grosse olive.\n\n3. **AMRITA**\n   - Ingredients: 4 oz Clarified Amrita Mix (contains dairy and nuts).\n   - Method: Stir in Mixing glass.\n   - Glass: Clear lowball.\n   - Garnish: Stamp fleur India Rosa + Skeleton Leaf.\n\n4. **NIRVANA**\n   - Ingredients: 7-8 Feuilles de Menthe, 1.5 oz Havana 3 ans Rhum Blanc, 0.5 oz Bergamotto, 1.0 oz Nectar de Goyave, 0.75 oz Sirop de thé Earl Grey, 1.0 oz Jus de Lime, Top Soda.\n   - Method: Muddle / Build / Top / Stir.\n   - Glass: Highball design.\n   - Garnish: Pebble Ice + Angostura dashes + Bouquet de Menthe.\n\n5. **ROSA'S ELIXIR**\n   - Ingredients: 1.25 oz Gin Hendrick's, 0.75 oz Lillet Blanc, 0.25 oz Chartreuse Verte, 0.5 oz Sirop de Cardamome, 0.5 oz Sirop de Gingembre, 1.5 oz Jus de Citron, 4 feuilles de Coriandre fraîche, 3 dash Celeri bitters.\n   - Method: Shake Hard / Double strain / Stir.\n   - Glass: Clear Highball.\n   - Garnish: 2 skeleton leaves + Lime déshydratée.\n\nLet me know if you need more details on any specific cocktail!",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "All recommended cocktails are on the menu."
+      },
+      "category": "recommendation",
+      "latency": 12.422603130340576
+    },
+    {
+      "q": "I don't like Shishya, any other recommendation similar?",
+      "answer": "Here are some Tiki cocktails that you might enjoy instead of Shishya:\n\n1. **TIKI GURU**\n   - **Ingredients**: 1.0 oz Vodka Absolut, 0.5 oz Malibu Coconut, 0.5 oz Galliano, 3.5 oz Premix Guru (Pêches blanches, Fruit de la passion, Jus Citron, sirop simple)\n   - **Method**: Shake / Strain\n   - **Glass**: Tiki\n   - **Garnish**: Feuille d'ananas, Lime déshydratée, Brunoise d'ananas\n\n2. **TIKI BHANGRA**\n   - **Ingredients**: 1.0 oz Pisco, 0.5 oz Averna Amaro Siciliano, 0.5 oz St-Germain, 3.5 oz Premix Bhangra (Mangue, Goyave, Coconut, Orange, Citron)\n   - **Method**: Shake / Strain\n   - **Glass**: Tiki\n   - **Garnish**: Feuille d'ananas, Lime déshydratée, Anise étoilée\n\n3. **TIKI NAMASTE**\n   - **Ingredients**: 1.0 oz Rhum Havana 7 ans, 1.0 oz Rhum Ananas Rosemont, 0.25 oz Kahlua, 3.5 oz Premix Namaste (Ananas, Oleo saccharum d'ananas, Sirop de cardamome, Lime)\n   - **Method**: Shake / Strain\n   - **Glass**: Balon à Cognac\n   - **Garnish**: Feuilles d'ananas, Ananas déshydratée, cardamome pods\n\n4. **TIKI SHANTI**\n   - **Ingredients**: 0.75 oz Rhum Havana Especial, 0.75 oz Rhum foncé Lemon Hart, 0.5 oz Calvados, 3.5 oz Premix Shanti (Carrotte, Ananas, Canelle, Gingembre, Lime)\n   - **Method**: Shake / Strain\n   - **Glass**: Tiki\n   - **Garnish**: Ananas déshydratée, Bâton de Canelle, Bouquet de Menthe\n\nLet me know if you need more details on any of these!",
+      "verdict": {
+        "passed": false,
+        "key_facts_present": false,
+        "violated_must_not": true,
+        "reason": "Tiki cocktails mentioned are not on the menu list."
+      },
+      "category": "recommendation",
+      "latency": 11.938199996948242
+    },
+    {
+      "q": "What are your desserts?",
+      "answer": "We have the following desserts:\n\n1. **Gulab Jamun**\n2. **Tiramisu Chai**\n3. **Glace à la Pistache**\n4. **Crème Brûlée à la Cardamome**\n\nLet me know if you need more details on any of these!",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer correctly lists real dessert items from the menu."
+      },
+      "category": "listing",
+      "latency": 5.989298105239868
+    },
+    {
+      "q": "Crazy but real question: do you have pizza?",
+      "answer": "Nous n'avons pas de pizza sur le menu.",
+      "verdict": {
+        "passed": true,
+        "key_facts_present": true,
+        "violated_must_not": false,
+        "reason": "The answer correctly states that pizza is not on the menu."
+      },
+      "category": "out_of_menu",
+      "latency": 1.5834870338439941
+    }
+  ]
+}

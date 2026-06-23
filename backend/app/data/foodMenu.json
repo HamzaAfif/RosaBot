@@ -462,7 +462,59 @@
         "name": "Sauce Korma",
         "description": "Gravy jaune avec épices korma, crème et sucre."
       }
+    ],
+    "desserts": [
+      {
+        "name": "Gulab Jamun",
+        "description": "Boulettes de lait frites, imbibées de sirop parfumé à la rose et à la cardamome, servies tièdes.",
+        "ingredients": [
+          "Lait en poudre (khoya)",
+          "Farine",
+          "Sirop de sucre",
+          "Eau de rose",
+          "Cardamome",
+          "Ghee"
+        ],
+        "spice_level": "Non épicé"
+      },
+      {
+        "name": "Tiramisu Chai",
+        "description": "Version indienne du tiramisu classique, infusée au chai épicé plutôt qu'au café.",
+        "ingredients": [
+          "Mascarpone",
+          "Biscuits doigts de dame",
+          "Thé chai épicé",
+          "Crème",
+          "Sucre",
+          "Cacao"
+        ],
+        "spice_level": "Non épicé"
+      },
+      {
+        "name": "Glace à la Pistache",
+        "description": "Glace artisanale à la pistache.",
+        "ingredients": [
+          "Lait",
+          "Crème",
+          "Pistaches",
+          "Sucre"
+        ],
+        "spice_level": "Non épicé"
+      },
+      {
+        "name": "Crème Brûlée à la Cardamome",
+        "description": "Crème brûlée onctueuse parfumée à la cardamome, caramélisée sur le dessus.",
+        "ingredients": [
+          "Crème",
+          "Jaunes d'oeuf",
+          "Sucre",
+          "Cardamome",
+          "Vanille"
+        ],
+        "spice_level": "Non épicé"
+      }
     ]
+
   },
   "notes": {
     "contain_gluten": "Les items marqués **CONTAIN GLUTEN** contiennent du gluten (coquille Dahi Puri, Samosa, Crevettes Malai, etc.)."
